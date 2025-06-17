@@ -14,3 +14,10 @@ Discovered "a" option for opening a file, that does not only append new content 
 
 ## Functions with return value
 Quite frankly, nothing new that I discovered here.
+
+## List comprehensions
+Amazed by the project on Student Grade Manager on how th list comprehension has been used to define grade on each student. I used to struggle on this list definition with multiple conditions. 
+
+## Modules and Libraries
+I think until now I didn't take time to think about the definition of module or library, I used them, even created some of them without even knowing the meaning of it.
+This course is really a reset for me. I also discovered the riches of "string" library which I will not only use to convert values into string. A course that shows me the importance of going back to the basics.
