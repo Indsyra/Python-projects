@@ -1,0 +1,1 @@
+Day 1: Today I learned about writing files in Python.

@@ -21,3 +21,6 @@ Amazed by the project on Student Grade Manager on how th list comprehension has 
 ## Modules and Libraries
 I think until now I didn't take time to think about the definition of module or library, I used them, even created some of them without even knowing the meaning of it.
 This course is really a reset for me. I also discovered the riches of "string" library which I will not only use to convert values into string. A course that shows me the importance of going back to the basics.
+
+## Dictionaries
+Oops, I've missed this module. On my side, nothing I didn't know.
