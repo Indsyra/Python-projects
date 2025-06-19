@@ -1,0 +1,4 @@
+[
+    {"task": "Create a JSON file", "description": "Create a file named 'data.json' and write a simple JSON object to it."},
+    {"task": "Read a JSON file", "description": "Read the contents of 'data.json' and print it to the console."}
+]
