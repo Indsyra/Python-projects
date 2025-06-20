@@ -1,5 +1,7 @@
 Now we are moving at another pace: 2 lessons a day.
 
+Working with Python 3.11.8
+
 ## Reading and Writing files
 Nothing new compared to the lesson in Back to Basics. Nevertheless, I enjoyed it.
 
