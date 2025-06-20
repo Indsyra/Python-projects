@@ -11,3 +11,6 @@ The program on Student Generator Report with the latitude of implementing grade 
 
 ## JSON Files
 What a lesson! I have to admit that I truly enjoyed working on the lesson project "The Mini To-Do List". Having already worked with Json in my career, this is a practical real-world usage, knowing that sometimes I can be messy in my planning. I am thrilled to see how this can be enhanced throughout the 100-Projects challenge.
+
+## API
+It's always a pleasure to perform API requests then to browse the response content. The Weather App API project aimed to display current weather only. The teacher wanted to go further by save weather records in a file and check the weather forecast for the next five days

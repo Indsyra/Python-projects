@@ -1,0 +1,16 @@
+[
+  {
+    "City": "Yaound\u00e9",
+    "Temperature": "22.74C",
+    "Weather": "Scattered Clouds",
+    "Humidity": "88%",
+    "Wind Speed": "1.54 m/s"
+  },
+  {
+    "City": "Antibes",
+    "Temperature": "24.73C",
+    "Weather": "Clear Sky",
+    "Humidity": "79%",
+    "Wind Speed": "1.03 m/s"
+  }
+]
