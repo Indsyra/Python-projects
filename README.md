@@ -4,7 +4,10 @@ This September marks one year since I transitioned from Software Quality Enginee
 
 To make it happen, I’ve challenged myself with "100 Days of Python: Build 100 Real-World Projects", a hands-on Udemy course by Dr. Vivian Aranha. It’s been incredibly rewarding to uncover new insights—even in libraries I’ve used before. Growth happens when we stretch beyond the familiar! 💡
 
+## Journaling
+2025-06-21 : Adjusting Goal Pace to take in Bonuses : From 14 to 10
 
-📈 *Current Week Progress (16-06-2025 => 22-06-2025):* 11/100
+
+📈 *Current Week Progress (16-06-2025 => 22-06-2025):* 14/100
 🎯 *Next Week Milestone :* 24/100
-⚡ *Goal Pace:* 14 projects/week
+⚡ *Goal Pace:* 10 projects/week
