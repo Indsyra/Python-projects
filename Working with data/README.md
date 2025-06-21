@@ -14,3 +14,6 @@ What a lesson! I have to admit that I truly enjoyed working on the lesson projec
 
 ## API
 It's always a pleasure to perform API requests then to browse the response content. The Weather App API project aimed to display current weather only. The teacher wanted to go further by save weather records in a file and check the weather forecast for the next five days
+
+## Date and time
+Often used in my career, I mostly learned from the project on countdown timer which help me discovering "divmod" which I didn't know up to now. The two lines int(a/b) and a%b were the ways to have quotient and remainder. I appreciated the bonus as it made me apply what has been done previously regarding to JSON files. Nevertheless, I encounter an issue on displaying once for all the end of the count down for a specific event when there are multiple events defined.
