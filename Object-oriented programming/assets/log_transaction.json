@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Brigitte",
+    "transaction": {
+      "operation": "Create",
+      "amount": 250.0,
+      "balance": 250.0
+    }
+  },
+  {
+    "name": "Indira",
+    "transaction": {
+      "operation": "Create",
+      "amount": 1500.0,
+      "balance": 1500.0
+    }
+  },
+  {
+    "name": "Paco",
+    "transaction": {
+      "operation": "Create",
+      "amount": 400.0,
+      "balance": 400.0
+    }
+  },
+  {
+    "name": "Brigitte",
+    "transaction": {
+      "operation": "Create",
+      "amount": 250.0,
+      "balance": 250.0
+    }
+  },
+  {
+    "name": "Paco",
+    "transaction": {
+      "operation": "Create",
+      "amount": 100.0,
+      "balance": 100.0
+    }
+  },
+  {
+    "name": "Paco",
+    "transaction": {
+      "operation": "Create",
+      "amount": 250.0,
+      "balance": 250.0
+    }
+  },
+  {
+    "name": "Indira",
+    "transaction": {
+      "operation": "Create",
+      "amount": 1250.0,
+      "balance": 1250.0
+    }
+  },
+  {
+    "name": "Brigitte",
+    "transaction": {
+      "operation": "Create",
+      "amount": 250.0,
+      "balance": 250.0
+    }
+  },
+  {
+    "name": "Terry",
+    "transaction": {
+      "operation": "Create",
+      "amount": 600.0,
+      "balance": 600.0
+    }
+  },
+  {
+    "name": "Terry",
+    "transaction": {
+      "operation": "Transfer",
+      "amount": -50.0,
+      "balance": 550.0,
+      "recipient_name": "Indira"
+    }
+  },
+  {
+    "name": "Terry",
+    "transaction": {
+      "operation": "Withdraw",
+      "amount": -100.0,
+      "balance": 450.0
+    }
+  },
+  {
+    "name": "Indira",
+    "transaction": {
+      "operation": "Deposit",
+      "amount": 200.0,
+      "balance": 1500.0
+    }
+  }
+]

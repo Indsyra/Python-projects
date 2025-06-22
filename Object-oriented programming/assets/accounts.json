@@ -1,0 +1,14 @@
+[
+  {
+    "account_holder": "Indira",
+    "balance": 1500.0
+  },
+  {
+    "account_holder": "Brigitte",
+    "balance": 250.0
+  },
+  {
+    "account_holder": "Terry",
+    "balance": 450.0
+  }
+]
