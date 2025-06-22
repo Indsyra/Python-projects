@@ -10,5 +10,6 @@ To make it happen, I’ve challenged myself with "100 Days of Python: Build 100 
 
 
 📈 *Current Week Progress (23-06-2025 => 29-06-2025):* 0/10
-🎯 *Next Week Milestone :* 24/100
+🌍 *Total progress:* 15/100
+🎯 *Current Week Milestone :* 24/100
 ⚡ *Goal Pace:* 10 projects/week
