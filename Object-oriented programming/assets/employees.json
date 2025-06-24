@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Sam Mono",
+    "emp_id": "142",
+    "salary": 15000.0
+  },
+  {
+    "name": "Lilian Vice",
+    "emp_id": "125",
+    "salary": 60000.0,
+    "department": "Accounting"
+  },
+  {
+    "name": "Fred Love",
+    "emp_id": "858",
+    "salary": 90000.0,
+    "programming_language": "Python"
+  },
+  {
+    "name": "Tom Nana",
+    "emp_id": "457",
+    "salary": 1500,
+    "status": "Intern"
+  }
+]

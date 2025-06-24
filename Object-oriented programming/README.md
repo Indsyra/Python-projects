@@ -9,3 +9,8 @@ Quite a classic though. I remember this exercise from my training on the way to 
 *Notebook* : constructors_methods.ipynb
 *Related Files in assets folder* : library_books.json, library_transaction.json
 A step forward OOP. The project was quite simple a library with basic operations : add, borrow (without time limit) and return a book, view all the books in the catalog. The bonus part was truly exciting : save the books in a file for persistence (I added functions to save books in a JSON file, then convert the JSON into list of Book objects), I added a transaction log to track all the operations made in the Library, set a time limit for borrowing a book and add a search module. Above all, very enriching
+
+## Inheritance
+*Notebook* : inheritance.ipynb
+*Related Files in assets folder* : employees.json
+I discovered multiple inheritance and multi-level inheritance that I did not know before. Overall, the experience while learning is quite thrilling. I noticed that I'm now able to forecast whether a project needs a persistence file or not, before the trainer even announces the bonus part (add an Intern class with a fixed stipend, save employees in a file, implement search by ID). I went a bit further as the search I implemented is based on either name or ID, and I began a module to update an employee. This part will be a focus for another commit.
