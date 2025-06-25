@@ -19,3 +19,8 @@ I discovered multiple inheritance and multi-level inheritance that I did not kno
 *Notebook* : polymorphism.ipynb
 *Related Files in assets folder* :
 Quite new to me as I can't remember when I ever used this concept. Interesting though! I learned that one of its application is GUI, which is one of the core concepts of this 100 projects challenge. I look forward to work on it.
+
+## Encapsulation
+*Notebook* : encapsulation.ipynb
+*Related Files in assets folder* : user_profiles.json
+One of these lessons that I particularly enjoy as it explains step by step what is what. I already used public, protected and private attributes without assessing to what they actually refers to. I created my own bonus challenge as I created a class for UserProfileApp which was not required in the bonus challenge of the lesson. Of course, persistence in an app is the key factor : Sooooo load in JSON file!
