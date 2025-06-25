@@ -14,3 +14,8 @@ A step forward OOP. The project was quite simple a library with basic operations
 *Notebook* : inheritance.ipynb
 *Related Files in assets folder* : employees.json
 I discovered multiple inheritance and multi-level inheritance that I did not know before. Overall, the experience while learning is quite thrilling. I noticed that I'm now able to forecast whether a project needs a persistence file or not, before the trainer even announces the bonus part (add an Intern class with a fixed stipend, save employees in a file, implement search by ID). I went a bit further as the search I implemented is based on either name or ID, and I began a module to update an employee. This part will be a focus for another commit.
+
+## Polymorphism
+*Notebook* : polymorphism.ipynb
+*Related Files in assets folder* :
+Quite new to me as I can't remember when I ever used this concept. Interesting though! I learned that one of its application is GUI, which is one of the core concepts of this 100 projects challenge. I look forward to work on it.
