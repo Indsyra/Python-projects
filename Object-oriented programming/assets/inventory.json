@@ -1,0 +1,14 @@
+[
+  {
+    "product_name": "Milk",
+    "price": 1.0,
+    "quantity": 50,
+    "expiration_date": "2025-06-28"
+  },
+  {
+    "product_name": "Laptop",
+    "price": 1500.0,
+    "quantity": 3,
+    "expiration_date": "3999-12-31"
+  }
+]

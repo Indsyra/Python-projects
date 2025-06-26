@@ -24,3 +24,8 @@ Quite new to me as I can't remember when I ever used this concept. Interesting t
 *Notebook* : encapsulation.ipynb
 *Related Files in assets folder* : user_profiles.json
 One of these lessons that I particularly enjoy as it explains step by step what is what. I already used public, protected and private attributes without assessing to what they actually refers to. I created my own bonus challenge as I created a class for UserProfileApp which was not required in the bonus challenge of the lesson. Of course, persistence in an app is the key factor : Sooooo load in JSON file!
+
+## Static and class methods
+*Notebook* : static_class_methods.ipynb
+*Related Files in assets folder* : inventory.json
+A good way to remind what is static method and to discover the power of class method that I can't remember if whether I ever used it. The project was thrilling to work on especially as I changed the paradigm of the exercise which was to create Main loop function resetting at each time the list of products. I still used JSON file for data persistence but I may consider loading data in CSV files in upcoming projects.
