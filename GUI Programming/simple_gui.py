@@ -2,13 +2,14 @@ import tkinter as tk
 
 # Take in input the name of a user and display a personalized greeting.
 # It should include a reset button to clear input
+# Bonus challenge: Add a dropdown menu
 
 default_label = "Enter your name"
 
 # Main Window
 root = tk.Tk()
 root.title("Simple GUI App")
-root.geometry("400x300")
+root.geometry("500x400")
 root.configure(bg="#f0f0f0")
 
 # Title Label
@@ -36,7 +37,7 @@ name_entry.pack(pady=10)
 def greet_user():
     name = name_entry.get()
     if name:
-        greeting_label.config(text=f"Hello, {name}!", fg="green")
+        greeting_label.config(text=f"{languages_map[language_opt.get()]}, {name}!", fg="green")
     else:
         greeting_label.config(text="Please enter your name!", fg="red")
 
@@ -44,6 +45,24 @@ def greet_user():
 def reset():
     name_entry.delete(0, tk.END)
     greeting_label.config(text="")
+
+# Language drop down
+languages_map = {
+    "Français": "Salut",
+    "Deutsch": "Hallo",
+    "English": "Hello",
+    "Italiano": "Ciao",
+    "Español": "Holà"
+}
+languages = list(languages_map.keys())
+language_opt = tk.StringVar(value="Français")
+
+language_dropdown = tk.OptionMenu(
+    root,
+    language_opt,
+    *languages,
+)
+language_dropdown.pack(pady=10)
 
 # Greet Button
 greet_button = tk.Button(
@@ -54,7 +73,7 @@ greet_button = tk.Button(
     bg="#4CAF50",
     fg="white"
 )
-greet_button.pack(pady=10)
+greet_button.pack(pady=5)
 
 # Reset Button
 reset_button = tk.Button(

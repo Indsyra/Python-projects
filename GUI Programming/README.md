@@ -26,3 +26,8 @@ The proposed solution included a method to configure the window background which
 ![alt text]({D9B03902-577E-4091-B35C-B8BE80F6C217}.png)
 ![alt text]({14CA003C-9B73-455C-9D8D-44479F39D2C5}.png)
 ![alt text]({CC50BB54-EC13-420B-A033-FEB792C4BC67}.png)
+
+The bonus challenge consisted into adding a dropdown menu to greet with a specific language.
+![alt text]({1EE5F214-071E-4A4A-85B0-7559E556DF4F}.png)
+![alt text]({2E162FFF-86F4-4522-BB65-954DA010A01E}.png)
+![alt text]({4790DF45-EA78-4422-874A-566EB4B29A29}.png)
