@@ -1,0 +1,22 @@
+[
+  {
+    "username": "admindy",
+    "password": "admindy"
+  },
+  {
+    "username": "indira",
+    "password": "loveme",
+    "accounts": [
+      {
+        "account_number": "65543",
+        "pin": "8899",
+        "balance": 23350.0
+      },
+      {
+        "account_number": "95688",
+        "pin": "1122",
+        "balance": 900.0
+      }
+    ]
+  }
+]

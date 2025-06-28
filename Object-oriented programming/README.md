@@ -29,3 +29,8 @@ One of these lessons that I particularly enjoy as it explains step by step what 
 *Notebook* : static_class_methods.ipynb
 *Related Files in assets folder* : inventory.json
 A good way to remind what is static method and to discover the power of class method that I can't remember if whether I ever used it. The project was thrilling to work on especially as I changed the paradigm of the exercise which was to create Main loop function resetting at each time the list of products. I still used JSON file for data persistence but I may consider loading data in CSV files in upcoming projects.
+
+## Final OOP Project
+*Notebook* : final_oop.ipynb
+*Related Files in assets folder* : atm.json, atm_transaction_log.csv
+Phew! This final project accurately bears its name. Here, I faced my level in solution architecture as I needed to redesign the whole project to take into account the bonus challenge requirements. Overall, I truly appreciated this project as it led to use all the concepts learned in this folder. Now jump on GUI Projects. Can't wait!
