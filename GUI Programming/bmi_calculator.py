@@ -159,10 +159,10 @@ def calculate_bmi():
         weight_unit = weight_units_map[weight_units_opt.get()]
         height_unit = height_units_map[height_units_opt.get()]
         
-        weight = convert_weight_kgs(weight, weight_unit)
-        height = convert_height_meters(height, height_unit)
+        weight_kg = convert_weight_kgs(weight, weight_unit)
+        height_m = convert_height_meters(height, height_unit)
 
-        bmi = weight / (height ** 2)
+        bmi = weight_kg / (height_m ** 2)
 
         status = ""
         
