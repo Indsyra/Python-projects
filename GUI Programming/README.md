@@ -96,3 +96,29 @@ You have quite a photo book to watch here, especially for the BMI Calculator pro
 ![alt text](./screenshots/{2AE7C6D3-774A-4A9E-8421-42E2F7A7C65C}.png)
 ![alt text](./screenshots/{6874FB47-818B-4312-A132-A6394221D87C}.png)
 ![alt text](./screenshots/{7FC1FA4D-75D7-4580-935C-7AE3859E5F9F}.png)
+
+## Canvas widgets
+*Notebook and Python files* : input_canvas_widgets.ipynb, drawing_pad_app.py
+*Related Files in assets folder* : First_image.png, "Second image.png"
+Mummy ! Daddy! I developed Paint! Ah ah! It was funny working with canvas widgets. Things are getting tougher and tougher. I can anticipate the usage of this widget in handwriting recognition.
+I struggled a bit on the bonus challenge of the project but it was overall enriching. I performed some researches on how to perform undo/redo actions as they are not built-in features.
+Besides, I discovered:
+- tk.Frame which provides a grid to organise buttons,
+- filedialog which helps interaction with File Explorer
+
+### Drawing Shapes and Lines
+![alt text](./screenshots/{01C6FB5D-E994-419B-872E-9E5C2159EE59}.png)
+
+### Mouse events
+![alt text](./screenshots/{92AE8152-3899-484D-AD02-77DEC148C289}.png)
+![alt text](./screenshots/{16DD3805-448F-4565-82AB-82B195617394}.png)
+
+### Clear and resetting canvas
+![alt text](./screenshots/{C7444E54-67FF-43D9-8C42-10CBD4849EC5}.png)
+![alt text](./screenshots/{433F021C-56FD-4A9E-8AD7-8F38B2C47617}.png)
+
+### Drawing padd app
+![alt text](./screenshots/{6AB1BCCF-089D-477A-8812-14D67EA43118}.png)
+![alt text](./screenshots/{C1DFE896-6DCE-45E8-B411-16E47703217F}.png)
+![alt text](./screenshots/{5A8335C4-71DA-45DA-8DAA-C9AC5CE984E2}.png)
+![alt text](./screenshots/{F92EE66F-D2DF-4140-AA80-097743B98042}.png)
