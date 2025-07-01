@@ -168,3 +168,26 @@ Correct credentials
 ![alt text](./screenshots/{2354B46D-2112-4037-BB06-F077F4D6E9F0}.png)
 ![alt text](./screenshots/{C185B0FF-03C8-4956-A2BC-0250A009F990}.png)
 ![alt text](./screenshots/{D971E3E1-0AC7-4BA6-8CE1-E6A2BE29DBE8}.png)
+
+## Advanced Widgets
+*Notebook and Python files* : messages_box.ipynb, simple_login_system.py
+*Related Files in assets folder* : user_file.json
+Guess now, I will be able to do my own to-do list. Can't wait to see where I can apply this except from this single usage.
+What about the bonus challenge of the day? Well, let's skip this one.
+
+### ListBox
+![alt text](./screenshots/{20055321-C326-422E-A622-47EC9EB690F6}.png)
+![alt text](./screenshots/{1082C061-2D53-4AB6-BB69-06DA0D323FE7}.png)
+
+### ScrollBar
+![alt text](./screenshots/{55E8CD68-9288-401A-A523-D3BA3845314B}.png)
+
+### Add, Delete, Update
+![alt text](./screenshots/{B1D58D67-9DDE-4D43-B4C2-6D5B153B4A46}.png)
+![alt text](./screenshots/{F7D22D80-5E81-4954-9609-A433654FFA90}.png)
+![alt text](./screenshots/{BC178A25-8BDE-4CEF-81FB-A3407CF1D934}.png)
+![alt text](./screenshots/{F0426377-3CD3-42F4-9435-0EB9EB736E49}.png)
+
+### To-Do List
+![alt text](./screenshots/{560EF0AC-7D33-43A8-9B77-43C5C86D808A}.png)
+![alt text](./screenshots/{B5E88C1E-242C-4C34-B1E8-CE9CB2A5BC49}.png)
