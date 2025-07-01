@@ -122,3 +122,49 @@ Besides, I discovered:
 ![alt text](./screenshots/{C1DFE896-6DCE-45E8-B411-16E47703217F}.png)
 ![alt text](./screenshots/{5A8335C4-71DA-45DA-8DAA-C9AC5CE984E2}.png)
 ![alt text](./screenshots/{F92EE66F-D2DF-4140-AA80-097743B98042}.png)
+
+## Message boxes
+*Notebook and Python files* : messages_box.ipynb, simple_login_system.py
+*Related Files in assets folder* : user_file.json
+Quite a simple lesson, yet interesting one! Moving from print statements reporting errors and warnings to message boxes which tell the user the state of their requests. Am I about to like GUI Programming ?
+
+### Message box types
+Info
+![alt text](./screenshots/{0AC53B3B-0FC8-484D-87D7-14044E95A88B}.png)
+
+Warning
+![alt text](./screenshots/{118EE100-1343-42EB-ACCB-662EAE6E9EB9}.png)
+
+Error
+![alt text](./screenshots/{E2F0554F-9DAE-4EC3-90C7-08133815803B}.png)
+
+Yes/No
+![alt text](./screenshots/{2B20F391-39FD-481B-BA8B-A6CA960B97D2}.png)
+
+
+### Message box for user input validation
+![alt text](./screenshots/{7E205575-CC30-473F-86DA-AAA4A549C56C}.png)
+![alt text](./screenshots/{4075284F-B7B9-42C4-B283-4AE05359A373}.png)
+![alt text](./screenshots/{F36E342C-E650-4923-89AA-124324057993}.png)
+![alt text](./screenshots/{5BD252CA-1CF4-4B2E-AC2C-34D570AD4F19}.png)
+
+### Message box for user authentication
+Incorrect username/password
+![alt text](./screenshots/{B997CBAD-9C3F-4AFD-92F2-5834B7540CE2}.png)
+![alt text](./screenshots/{7C351884-2367-4E4C-A810-521903FEB586}.png)
+
+Correct credentials
+![alt text](./screenshots/{79F3CA02-9809-4D9E-B331-A4197D00EAB4}.png)
+![alt text](./screenshots/{F43DB5FB-8D93-4B2F-8544-4A0AC5CBF1B9}.png)
+
+### Project : Simple login system
+![alt text](./screenshots/{B762CB8B-FC41-4068-8D56-98977F7DE33E}.png)
+![alt text](./screenshots/{2796091A-7107-4D63-8317-98A47C7D4985}.png)
+![alt text](./screenshots/{F05ADEB4-211F-40EC-897F-D7EDEEEB0B35}.png)
+![alt text](./screenshots/{F89EEE91-23BA-4767-910F-3596B3A947CF}.png)
+
+#### Bonus challenge
+![alt text](./screenshots/{7283B976-6832-4863-BCDB-A8EF3E924500}.png)
+![alt text](./screenshots/{2354B46D-2112-4037-BB06-F077F4D6E9F0}.png)
+![alt text](./screenshots/{C185B0FF-03C8-4956-A2BC-0250A009F990}.png)
+![alt text](./screenshots/{D971E3E1-0AC7-4BA6-8CE1-E6A2BE29DBE8}.png)
