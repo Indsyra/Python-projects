@@ -40,3 +40,6 @@ Oops, I've missed this module. On my side, nothing I didn't know.
 ## Crash Course
 Who starts a lesson from the middle ? Guess what ? Me! 
 Alright, so I needed to go back to the beginning of this challenge. Baby steps! I enjoyed the game I developed Mini Game : Guess Number.
+
+## Print Statements & Hello World
+Hellloooo World! I'm sure you know at least one song with this title, right? It's good to start with the Python (and any other languages') ABC. I can confess that I cheated a bit since I learned datetime before engaging the bonus challenge of this day.
