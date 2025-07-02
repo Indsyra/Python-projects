@@ -153,6 +153,7 @@ def reset_search():
         return
     expenses_listbox.delete(0, tk.END)
     load_expenses()
+    calculate_total()
 
 
 # ----- GUI Layout -----
