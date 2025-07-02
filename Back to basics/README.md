@@ -36,3 +36,7 @@ This course is really a reset for me. I also discovered the riches of "string" l
 
 ## Dictionaries
 Oops, I've missed this module. On my side, nothing I didn't know.
+
+## Crash Course
+Who starts a lesson from the middle ? Guess what ? Me! 
+Alright, so I needed to go back to the beginning of this challenge. Baby steps! I enjoyed the game I developed Mini Game : Guess Number.
