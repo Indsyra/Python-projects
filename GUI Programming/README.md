@@ -195,3 +195,17 @@ What about the bonus challenge of the day? Well, let's skip this one. Kidding!
 #### Bonus challenge
 ![alt text](./screenshots/{09C4B475-AEBB-46C5-8AE2-8B8DDD1FBD12}.png)
 ![alt text](./screenshots/{454EDE1E-11B7-457B-9A04-8C20039D96A3}.png)
+
+## GUI Capstone
+*Notebook and Python files* : expense_tracker_app.py
+*Related Files in assets folder* : expenses.csv
+Interesting project to conclude this GUI Programming section. After following along the project on this part, the bonus challenge invites to search a bit on how to implement dates with Tkinter (needed to import tkCalendar). Search functionality was requested and Reset has been added. I need to investigate further on how to export data as PDFs.
+
+### Expense Tracker
+![alt text](./screenshots/{15547254-9AFC-48BA-9AEB-6029FBFCC212}.png)
+![alt text](./screenshots/{1020EE21-48AD-40CF-86E0-139712A2845A}.png)
+
+### Bonus Challenge
+![alt text](./screenshots/bonus-1.png)
+![alt text](./screenshots/{4227CC2E-D76B-4262-91CA-5EB4B04AD18C}.png)
+![alt text](./screenshots/{41734E5A-5DD3-4AF5-B6EB-40BDB5E83EE9}.png)
