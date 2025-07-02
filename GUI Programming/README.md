@@ -171,9 +171,9 @@ Correct credentials
 
 ## Advanced Widgets
 *Notebook and Python files* : messages_box.ipynb, simple_login_system.py
-*Related Files in assets folder* : user_file.json
+*Related Files in assets folder* : task_file.json
 Guess now, I will be able to do my own to-do list. Can't wait to see where I can apply this except from this single usage.
-What about the bonus challenge of the day? Well, let's skip this one.
+What about the bonus challenge of the day? Well, let's skip this one. Kidding!
 
 ### ListBox
 ![alt text](./screenshots/{20055321-C326-422E-A622-47EC9EB690F6}.png)
@@ -191,3 +191,7 @@ What about the bonus challenge of the day? Well, let's skip this one.
 ### To-Do List
 ![alt text](./screenshots/{560EF0AC-7D33-43A8-9B77-43C5C86D808A}.png)
 ![alt text](./screenshots/{B5E88C1E-242C-4C34-B1E8-CE9CB2A5BC49}.png)
+
+#### Bonus challenge
+![alt text](./screenshots/{09C4B475-AEBB-46C5-8AE2-8B8DDD1FBD12}.png)
+![alt text](./screenshots/{454EDE1E-11B7-457B-9A04-8C20039D96A3}.png)
