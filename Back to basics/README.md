@@ -54,3 +54,8 @@ Hellloooo World! I'm sure you know at least one song with this title, right? It'
 *Notebook* : variable_datatypes.ipynb
 *Related Files in assets folder* :
 It always feels good when we eat our childhood favorite meal right? Well, guess working on variables and data types feels the same. The bonus challenge of this day was quite funny especially on the nickname generator.
+
+## User input & String formatting
+*Notebook* : user_input_string_formatting.ipynb
+*Related Files in assets folder* :
+Good old calculator with a menu! Nothing much to say on this part as it combines all the previous lessons.
