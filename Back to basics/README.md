@@ -35,11 +35,22 @@ I think until now I didn't take time to think about the definition of module or 
 This course is really a reset for me. I also discovered the riches of "string" library which I will not only use to convert values into string. A course that shows me the importance of going back to the basics.
 
 ## Dictionaries
+*Notebook* : dictionaries.ipynb
+*Related Files in assets folder* :
 Oops, I've missed this module. On my side, nothing I didn't know.
 
 ## Crash Course
+*Notebook* : firstcode.ipynb
+*Related Files in assets folder* :
 Who starts a lesson from the middle ? Guess what ? Me! 
 Alright, so I needed to go back to the beginning of this challenge. Baby steps! I enjoyed the game I developed Mini Game : Guess Number.
 
 ## Print Statements & Hello World
+*Notebook* : print_hello_world.ipynb
+*Related Files in assets folder* :
 Hellloooo World! I'm sure you know at least one song with this title, right? It's good to start with the Python (and any other languages') ABC. I can confess that I cheated a bit since I learned datetime before engaging the bonus challenge of this day.
+
+## Variables and types
+*Notebook* : variable_datatypes.ipynb
+*Related Files in assets folder* :
+It always feels good when we eat our childhood favorite meal right? Well, guess working on variables and data types feels the same. The bonus challenge of this day was quite funny especially on the nickname generator.
