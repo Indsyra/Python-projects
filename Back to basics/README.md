@@ -59,3 +59,8 @@ It always feels good when we eat our childhood favorite meal right? Well, guess 
 *Notebook* : user_input_string_formatting.ipynb
 *Related Files in assets folder* :
 Good old calculator with a menu! Nothing much to say on this part as it combines all the previous lessons.
+
+## If-Else statements
+*Notebook* : if_else.ipynb
+*Related Files in assets folder* :
+I appreciated the project especially the bonus challenge of adding the third number. I'm questioning though about the complexity of the code. Hope that I will learn to tackle this throughout the following days.
