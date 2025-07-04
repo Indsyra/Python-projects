@@ -64,3 +64,8 @@ Good old calculator with a menu! Nothing much to say on this part as it combines
 *Notebook* : if_else.ipynb
 *Related Files in assets folder* :
 I appreciated the project especially the bonus challenge of adding the third number. I'm questioning though about the complexity of the code. Hope that I will learn to tackle this throughout the following days.
+
+## Loops
+*Notebook* : loop.ipynb
+*Related Files in assets folder* :
+Well, I guess working on more complex projects before coming back to this lesson made this lesson less challenging. But eh, 100 projects are 100 projects, not less not more.
