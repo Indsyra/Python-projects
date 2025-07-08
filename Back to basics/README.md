@@ -74,3 +74,8 @@ Well, I guess working on more complex projects before coming back to this lesson
 *Notebook* : functions.ipynb
 *Related Files in assets folder* :
 I particularly enjoyed working on the math quiz. The main challenge for me was to set up the timer for each question. I guess I need to practice a bit on this module.
+
+## Lists
+*Notebook* : lists.ipynb
+*Related Files in assets folder* :
+Good way to remember how file work and how to save elements in a basic file.
