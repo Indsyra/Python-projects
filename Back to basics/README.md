@@ -69,3 +69,8 @@ I appreciated the project especially the bonus challenge of adding the third num
 *Notebook* : loop.ipynb
 *Related Files in assets folder* :
 Well, I guess working on more complex projects before coming back to this lesson made this lesson less challenging. But eh, 100 projects are 100 projects, not less not more.
+
+## Functions
+*Notebook* : functions.ipynb
+*Related Files in assets folder* :
+I particularly enjoyed working on the math quiz. The main challenge for me was to set up the timer for each question. I guess I need to practice a bit on this module.
