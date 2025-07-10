@@ -1,0 +1,1 @@
+app.config['SQLALCHEMY_DATABASE_URL'] = 'sqlite:///users.db'

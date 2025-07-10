@@ -56,8 +56,16 @@ pip install flask-wtf
 pip show flask-wtf
 
 ## Database Integration
-*Notebook / Python files* :
+*Notebook / Python files* : ./4_database_integration
 *Related Files in assets folder* :
+
+### Projects
+![alt text](./screenshots/{0724AF7D-8BAD-4A35-A83D-D37F5AA4BAEF}.png)
+![alt text](./screenshots/{52EBAAE4-9D27-484B-BF2C-A4C96FAF913E}.png)
+![alt text](./screenshots/{22AFA1A0-C8C4-4430-B89E-47676ADF822E}.png)
+
+### Install Flask-SQLAlchemy
+pip install flask-sqlalchemy
 
 ## REST APIs
 *Notebook / Python files* :
