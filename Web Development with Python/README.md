@@ -39,8 +39,21 @@ Well! What a marvelous lesson! The idea of building my own Python challenge blog
 ![alt text](./screenshots/{CAF0ECF8-221A-48AA-9FC8-3AD1E77DD166}.png)
 
 ## Forms & User Input
-*Notebook / Python files* :
+*Notebook / Python files* : ./3_forms_user_input
 *Related Files in assets folder* :
+
+A huge step in using Flask. I wasn't aware about a built-in library that will validate user input. A pleasant surprise, but I still need to practice to fully understand this feature.
+
+### Projects
+Needed to install email_validator to work without any bug: pip install email_validator
+
+![alt text](./screenshots/{D3BAFAEF-BEE9-4E9C-BDEC-4E3A1996F747}.png)
+![alt text](./screenshots/{A76C5CC9-66F2-4046-89BD-FE64C10993A4}.png)
+![alt text](./screenshots/{3E726AFC-9AA2-482B-BFE9-3EE2D3AE9696}.png)
+
+### Install Flask WTF
+pip install flask-wtf
+pip show flask-wtf
 
 ## Database Integration
 *Notebook / Python files* :
