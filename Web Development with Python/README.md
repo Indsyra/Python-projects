@@ -1,7 +1,7 @@
 # Web Developmen with Python
 
 ## Flask Basics
-*Notebook / Python files* :
+*Notebook / Python files* : ./1_Flask_Basics/*
 *Related Files in assets folder* :
 Well! Every house needs strong foundation to remain. Let's start by defining the templates and how Flask uses it for page layout.
 
@@ -18,8 +18,25 @@ Well! Every house needs strong foundation to remain. Let's start by defining the
 ![alt text](./screenshots/{7E3FA2F9-7AF7-4AAB-90F0-309F2C14FF2C}.png)
 
 ## Routes & Templates
-*Notebook / Python files* :
+*Notebook / Python files* : ./2_routes_templates
 *Related Files in assets folder* :
+
+Well! What a marvelous lesson! The idea of building my own Python challenge blog grew in my mind. Can't wait for next projects.
+
+### Advanced Flask Routing
+![alt text](./screenshots/{683438C2-B30A-49EB-9816-E42E35691F3E}.png)
+![alt text](./screenshots/{75915537-CAF8-4618-ABD9-57E04690CE6B}.png)
+
+### Dynamic Templates Jinja2
+![alt text](./screenshots/{6853E88E-339F-485B-83EB-6F5EF2952796}.png)
+
+### Passing Data
+![alt text](./screenshots/{201CD4E6-211E-47F5-8F4E-9628D3EFF28D}.png)
+
+### Project
+![alt text](./screenshots/{BDE737C9-4B7C-4A61-8E92-BFE637A9C9C3}.png)
+![alt text](./screenshots/{6FFB2E4D-E896-4A86-BE53-5F7DEC554D17}.png)
+![alt text](./screenshots/{CAF0ECF8-221A-48AA-9FC8-3AD1E77DD166}.png)
 
 ## Forms & User Input
 *Notebook / Python files* :
