@@ -66,19 +66,23 @@ def login():
             flash('All field are required', 'error')
             return redirect(url_for('login'))
 
-        user = db.session.get(User, {"username": username})
+        user = User.query.filter_by(username=username).first()
+        print(user)
+        if user:
+            print(user.username)
+            print(user.password)
         if not user or (user and not check_password_hash(user.password, password)):
             flash('Incorrect username or password', 'error')
             return redirect(url_for('login'))
         flash('Successful Login', 'success')
         return render_template('home.html', username=username)
-    return "Login Page (To be implemented)"
+    return render_template('login.html')
 
 
 # Home Page
-@app.route('/home')
+@app.route('/home/<username>')
 def home(username):
-    
+    return render_template('home.html', username)
 
 
 if __name__ == '__main__':

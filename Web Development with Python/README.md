@@ -59,13 +59,19 @@ pip show flask-wtf
 *Notebook / Python files* : ./4_database_integration
 *Related Files in assets folder* :
 
+### Install Flask-SQLAlchemy
+pip install flask-sqlalchemy
+
 ### Projects
+Goal : Basic user registration without login module or any verification after login. A user should not be registered twice.
+
 ![alt text](./screenshots/{0724AF7D-8BAD-4A35-A83D-D37F5AA4BAEF}.png)
 ![alt text](./screenshots/{52EBAAE4-9D27-484B-BF2C-A4C96FAF913E}.png)
 ![alt text](./screenshots/{22AFA1A0-C8C4-4430-B89E-47676ADF822E}.png)
 
-### Install Flask-SQLAlchemy
-pip install flask-sqlalchemy
+Bonus challenge: Implement login page + user login verification
+![alt text](./screenshots/{7E2916BD-31EE-4C01-9079-9C4832B62C60}.png)
+![alt text](./screenshots/{FD6D4AE1-9152-481B-A467-85440D9D1D47}.png)
 
 ## REST APIs
 *Notebook / Python files* :
