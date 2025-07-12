@@ -74,8 +74,35 @@ Bonus challenge: Implement login page + user login verification
 ![alt text](./screenshots/{FD6D4AE1-9152-481B-A467-85440D9D1D47}.png)
 
 ## REST APIs
-*Notebook / Python files* :
+*Notebook / Python files* : ./5_rest_apis
 *Related Files in assets folder* :
+
+### Install Flask REST API
+pip install flask flask-restful
+
+### First example
+![alt text](./screenshots/{532A2D32-618D-4185-AD45-E22ECDE90766}.png)
+
+### Routes and Endpoints
+![alt text](./screenshots/{2FAB03EE-2240-4BFD-B3B1-AA92B4590876}.png)
+![alt text](./screenshots/{BCFE47BE-99E7-4B37-88A2-CA61C746AEF0}.png)
+![alt text](./screenshots/{56DF0C05-A8C2-4C9C-BD45-EF87AD858320}.png)
+![alt text](./screenshots/{1193BDC8-6AC5-406B-BC2A-8A9C2522B250}.png)
+
+### Project
+Youhou! Welcome Postman!
+![alt text](./screenshots/{A5D0FECC-78C2-4D8E-96BA-23ED99CEB8B2}.png)
+![alt text](./screenshots/{636F5155-D973-49E8-A42D-59AF54B0C882}.png)
+![alt text](./screenshots/{4FE38712-1F75-4DE9-B19E-83F86DCF0120}.png)
+![alt text](./screenshots/{41E86A80-8DA3-4A0C-B0BF-837ED119C20E}.png)
+![alt text](./screenshots/{FE2AB965-439A-46AF-A077-24F2764C4B1E}.png)
+
+#### Bonus Challenge : Add PUT to update city weather and DELETE for delete city weather entries
+![alt text](./screenshots/{01B5C30C-0D47-4767-BD33-4780D6BC6F79}.png)
+![alt text](./screenshots/{DD5A5502-A9D6-4759-8CAC-86E4C98D2477}.png)
+![alt text](./screenshots/{7846A31E-519A-4CC7-81C5-03881F25F46F}.png)
+Try to delete the same city
+![alt text](./screenshots/{2F175FC9-5031-49DB-B379-CF6E25DB9D3E}.png)
 
 ## Deployment
 *Notebook / Python files* :
