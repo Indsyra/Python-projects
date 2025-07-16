@@ -13,6 +13,10 @@ pip install numpy
 ![alt text](./screenshots/{53DA9D87-F20D-4720-8630-0C1B5F1B5860}.png)
 ![alt text](./screenshots/{E17F91B3-7F76-4320-80EC-726825DD9D89}.png)
 
+#### Bonus challenge:
+- Handle scalars and vector operations
+- Add a graphical interface using Tkinter
+- Integrate matrix saving loading to a file or from a file
 
 ## Pandas
 *Notebook / Python files* : ![alt text](./2_Pandas/)
