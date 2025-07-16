@@ -15,7 +15,7 @@ pip install numpy
 
 
 ## Pandas
-*Notebook / Python files* : ./2_Pandas/*
+*Notebook / Python files* : ![alt text](./2_Pandas/)
 *Related Files in assets folder* : data.csv, data1.csv, clean_project.csv, project.csv
 
 ## Install Pandas
@@ -33,10 +33,43 @@ pip install pandas
 - Include support for excel files
 
 ## Matplotlib
-*Notebook / Python files* :
-*Related Files in assets folder* :
+*Notebook / Python files* : ![alt text](./3_Matplotlib/)
+*Related Files in assets folder* : ![alt text](./assets/matplotlib/)
+
+### Install matplotlib
+pip install matplotlib
+
+### Basic Plots
+#### Line graph
+![alt text](./screenshots/image.png)
+
+#### Bar chart
+![alt text](./screenshots/image-1.png)
+
+#### Scatter plot
+![alt text](./screenshots/image-2.png)
+
+#### Personalized Graphs
+![alt text](./screenshots/image-3.png)
+
+#### Subplots
+![alt text](./screenshots/image-4.png)
+
+#### Plot from data files
+![alt text](./screenshots/image-5.png)
 
 ### Project : Graph Plotter
+Build a CLI based graph plotter that accepts user input for data points or loads data from a file.
+Plots graphs based on user selected types.
+Save the generated graph as a file.
+
+![alt text](./screenshots/image1.png)
+![alt text](./assets/matplotlib/square.png)
+![alt text](./screenshots/image2.png)
+
+#### Bonus challenge
+Add more graph types
+Implement Tkinter for interactive graph plotting
 
 ## Data Analysis
 *Notebook / Python files* :
