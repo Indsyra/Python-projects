@@ -29,7 +29,7 @@ def clean_data(data: pd.DataFrame):
         
     print("Data cleaned successfully!")
     
-    save_choice = input("Do you want to save the cleaned data in a separate file (yes/no)?").lower()
+    save_choice = input("Do you want to save the cleaned data in a separate file (yes/no)? ").lower()
     if save_choice == "yes":
         file_path = input("Enter the file path (with extension) for cleaned data: ")
         data.to_csv(file_path)
@@ -41,13 +41,13 @@ def interactive_filter(data: pd.DataFrame):
         print("Here are the available columns in the data :")
         columns = list(data.columns)
         for indx, col in enumerate(columns):
-            print(f"\n{indx + 1}. {col}")
+            print(f"{indx + 1}. {col}")
         print(f"{len(columns) + 1}. Exit Interactive Filter")
         
         try:
             choice = int(input(f"From which column do you want to filter data (1 - {len(columns) + 1}) ? "))
             
-            if choice not in range(len(columns) + 2):
+            if choice not in range(1, len(columns) + 2):
                 print("Invalid choice. Please try again")
                 
             elif choice == len(columns) + 1:
@@ -55,16 +55,16 @@ def interactive_filter(data: pd.DataFrame):
                 break
             
             else:
-                col_name = col_name[choice - 1]
+                col_name = columns[choice - 1]
                 print(f"Here are the values of the column {col_name}")
-                values = list(data[col_name].values().unique())
+                values = list(data[col_name].unique())
                 for i, val in enumerate(values):
-                    print(f"\n{i+1}. {val}")
+                    print(f"{i+1}. {val}")
                 
                 try:
                     val_choice = int(input("Which value do you want for filter ? "))
                 
-                    if val_choice not in range(len(values)):
+                    if val_choice not in range(1, len(values) + 1):
                         print("Value not found.")
                     else:
                         selected_value = values[val_choice - 1]
@@ -75,9 +75,10 @@ def interactive_filter(data: pd.DataFrame):
                         if save_filter == "yes":
                             suffix = selected_value
                             if isinstance(selected_value, str):
+                                print("here")
                                 suffix = '_'.join(selected_value.replace(",","_").split())
                             filtered_file_path = f"..\\assets\\data_analysis\\filtered_{col_name}_{suffix}.csv"
-                            filtered_data.to_csv(filtered_data)
+                            filtered_data.to_csv(filtered_file_path)
                             print(f"Filtered Data successfully saved in : {filtered_file_path}")
                 except Exception as e:
                     print(f"Error in interactive filtering (select value to filter) : {e}")
@@ -104,13 +105,39 @@ def analyze_data(data: pd.DataFrame):
         print("\nTop 5 Products by Revenue:")
         print(top_products)
         
+    # Product categories by Quantity
+    product_categories = data.groupby("Product_Category")['Quantity'].sum()
+    
+    # Product categories by Quantity
+    if "Revenue" in data.columns:
+        product_categories_revenue = data.groupby("Product_Category")['Revenue'].sum()
+        
     # Visualize Monthly Sales
-    monthly_sales.plot(kind="bar", figsize=(10, 6), color="skyblue")
-    plt.title("Monthly Sales")
-    plt.xlabel("Month")
-    plt.ylabel("Total Sales")
-    plt.xticks(rotation=45)
+    fig, axs = plt.subplots(2, 2, figsize=(14, 10))
+    
+    monthly_sales.plot(kind="bar", color=data, ax=axs[0, 0])
+    axs[0, 0].set_xlabel("Month")
+    axs[0, 0].set_ylabel("Total Sales")
+    axs[0, 0].set_title("Monthly Sales")
+    axs[0, 0].tick_params(axis='x', rotation=45)
+    
+    top_products.plot(kind="bar", color="salmon", ax=axs[1, 0])
+    axs[1, 0].set_xlabel("Product")
+    axs[1, 0].set_ylabel("Revenue")
+    axs[1, 0].set_title("Top 5 Products by Revenue")
+    axs[1, 0].tick_params(axis='x', rotation=45)
+    
+    product_categories.plot(kind="pie", ax=axs[0, 1])
+    axs[0, 1].set_title("Shares of Product Categories by Quantity")
+    
+    product_categories_revenue.plot(kind="pie", ax=axs[1, 1])
+    axs[1, 1].set_title("Shares of Product Categories by Revenue")
+    
+    fig.tight_layout()
+    fig.subplots_adjust(hspace=0.4, wspace=0.3)
+    
     plt.show()
+
 
 def main():
     print("Welcome to the Sales Report Analyzer!")
@@ -128,7 +155,7 @@ def main():
     analyze_data(data)
     
     # Interactive filter
-    filter_choice = input("Do you want to proceed to interactive filter (yes/no) ?").lower()
+    filter_choice = input("Do you want to proceed to interactive filter (yes/no) ? ").lower()
     
     if filter_choice == "yes":
         interactive_filter(data)

@@ -76,11 +76,11 @@ Add more graph types
 Implement Tkinter for interactive graph plotting
 
 ## Data Analysis
-*Notebook / Python files* :
-*Related Files in assets folder* :
+*Notebook / Python files* : ![alt text](./4_Data_Analysis/)
+*Related Files in assets folder* : ![alt text](./assets/data_analysis/)
 
-![alt text](image_results.png)
-![alt text](image_analysis.png)
+![alt text](./screenshots/image_results.png)
+![alt text](./screenshots/image_analysis.png)
 
 ### Project : Sales Report Analyzer
 Build a CLI based sales report analyzer that loads sales data from a CSV file, cleans and pre-processes.
@@ -90,6 +90,8 @@ The data, generates insights like top selling products, sales trends and revenue
 - Ability to export the clean data in a CSV file
 - Implement interactive filtering (e.g filter by category or date range)
 - Implement advanced visualizations like pie charts or stacked bar plots
+
+![alt text](./screenshots/image_project.png)
 
 ## Plotting Trends
 *Notebook / Python files* :

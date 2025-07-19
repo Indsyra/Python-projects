@@ -1,0 +1,21 @@
+,Order ID,Product_Name,Product_Category,Quantity,Price,Sales_Amount,Date,Year_Month,Revenue
+0,10001,"Shirt, Large",Clothing,2,25.99,51.98,2023-01-01,2023-01,51.98
+1,10002,"Hat, Black",Accessories,1,19.99,19.99,2023-01-02,2023-01,19.99
+2,10003,"Trousers, Blue",Clothing,1,39.99,39.99,2023-01-03,2023-01,39.99
+3,10004,"Shirt, Medium",Clothing,3,25.99,77.97,2023-01-04,2023-01,77.97
+4,10005,"Shoes, Running",Footwear,1,79.99,79.99,2023-01-05,2023-01,79.99
+5,10006,"Hat, White",Accessories,2,19.99,39.98,2023-01-06,2023-01,39.98
+6,10007,"T-shirt, Red",Clothing,1,14.99,14.99,2023-01-07,2023-01,14.99
+7,10008,"Jacket, Winter",Clothing,1,99.99,99.99,2023-01-10,2023-01,99.99
+8,10009,"Watch, Digital",Accessories,1,49.99,49.99,2023-01-12,2023-01,49.99
+9,10010,"Sweatshirt, Gray",Clothing,2,34.99,69.98,2023-01-15,2023-01,69.98
+10,10011,"Bag, Backpack",Accessories,1,59.99,59.99,2023-01-18,2023-01,59.99
+11,10012,"Jeans, Straight",Clothing,1,44.99,44.99,2023-01-20,2023-01,44.99
+12,10013,"Sunglasses, Black",Accessories,1,29.99,29.99,2023-01-21,2023-01,29.99
+13,10014,"Dress, Black",Clothing,1,64.99,64.99,2023-01-25,2023-01,64.99
+14,10015,"Belt, Leather",Accessories,1,19.99,19.99,2023-01-27,2023-01,19.99
+15,10016,"Shirt, X-Large",Clothing,1,25.99,25.99,2023-02-01,2023-02,25.99
+16,10017,"Socks, Pack of 3",Accessories,2,9.99,19.98,2023-02-02,2023-02,19.98
+17,10018,Scarf,Accessories,1,14.99,14.99,2023-02-03,2023-02,14.99
+18,10019,"Sweater, Blue",Clothing,1,49.99,49.99,2023-02-06,2023-02,49.99
+19,10020,"Wallet, Leather",Accessories,1,34.99,34.99,2023-02-08,2023-02,34.99
