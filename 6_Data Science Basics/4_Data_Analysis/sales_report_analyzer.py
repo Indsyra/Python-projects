@@ -115,7 +115,7 @@ def analyze_data(data: pd.DataFrame):
     # Visualize Monthly Sales
     fig, axs = plt.subplots(2, 2, figsize=(14, 10))
     
-    monthly_sales.plot(kind="bar", color=data, ax=axs[0, 0])
+    monthly_sales.plot(kind="bar", ax=axs[0, 0])
     axs[0, 0].set_xlabel("Month")
     axs[0, 0].set_ylabel("Total Sales")
     axs[0, 0].set_title("Monthly Sales")

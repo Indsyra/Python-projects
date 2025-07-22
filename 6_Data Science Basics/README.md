@@ -94,10 +94,32 @@ The data, generates insights like top selling products, sales trends and revenue
 ![alt text](./screenshots/image_project.png)
 
 ## Plotting Trends
-*Notebook / Python files* :
-*Related Files in assets folder* :
+*Notebook / Python files* : ![alt text](./6_Data_Scraping/data_scraping.py)
+*Related Files in assets folder* : ![alt text](./assets/plotting_trends/)
+
+### Loading temperature data
+![alt text](./screenshots/{05556DC9-3297-442D-A6CA-239CB83DB0DF}.png)
+
+### Plot temperature trends
+![alt text](./screenshots/{B42CA79E-E82F-413D-89DD-8F6E56E633A8}.png)
+![alt text](./screenshots/{C5505490-FA01-401C-9698-5EB459197120}.png)
+
+### Highlight Anomalies and Averages
+![alt text](./screenshots/{EBAEF888-465E-4B59-865A-2B0A61E5CE1B}.png)
 
 ### Project : Temperature Plotter
+- Load temperature data from a CSV file
+- Plots the temperature trends with options for rolling averages and anomalies
+- Save the customized plot as an image file
+
+![alt text]({990AED76-F60E-4A44-9943-D0B6EA90781C}.png)
+![alt text](./assets/plotting_trends/temperature_plotter.png)
+
+#### Bonus challenge
+- Add options for monthly or yearly trend aggregation (Done) ![alt text](./assets/plotting_trends/temperature_data_city_monthly.png), ![alt text](./assets/plotting_trends/temperature_data_city_yearly.png)
+- Interactive visualisations with plotly (Not done)
+- Try ot extend the tool to handle multiple city temperatures (Done) : dataset ![alt text](./assets/plotting_trends/temperature_data_city.csv)
+
 
 ## Data Scraping
 *Notebook / Python files* :

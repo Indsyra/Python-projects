@@ -10,9 +10,10 @@ To make it happen, I’ve challenged myself with "100 Days of Python: Build 100 
 2025-06-30 : Status for *Week 23-06-2025 => 29-06-2025* : 9/10 projects
 2025-07-07 : Status for *Week 30-06-2025 => 06-07-2025* : 10/10 projects
 2025-07-15 : Status for *Week 07-07-2025 => 13-07-2025* : 8/10 projects
+2025-07-21 : Status for *Week 14-07-2025 => 20-07-2025* : 2/10 projects
 
 
-📈 *Current Week Progress (14-07-2025 => 20-07-2025):* 2/10
-🌍 *Total progress:* 44/100
-🎯 *Current Week Milestone :* 52/100
+📈 *Current Week Progress (21-07-2025 => 27-07-2025):* 1/5
+🌍 *Total progress:* 45/100
+🎯 *Current Week Milestone :* 49/100
 ⚡ *Goal Pace:* 10 projects/week
