@@ -125,7 +125,18 @@ The data, generates insights like top selling products, sales trends and revenue
 *Notebook / Python files* :
 *Related Files in assets folder* :
 
+pip install requests beautifulsoup4
+
 ### Stock Price Tracker
+
+#### Project : Stock Price Tracker
+Same content as in the course
+
+##### Bonus challenge:
+- Add support for tracking multiple stock symbols simultaneously
+- Organize them in a pretty format
+- Save tracked stock prices in a file 
+- Build a Tkinter GUI
 
 ## Capstone project : COVID-19 Dashboard
 *Notebook / Python files* :

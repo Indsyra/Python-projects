@@ -27,9 +27,9 @@ def clean_data(df: pd.DataFrame):
     print("\nHow would you proceed ?")
     print("1. Fill NA values")
     print("2. Drop rows with NA values")
-    
+
     choice = input("Enter your choice (1 or 2): ")
-    
+
     if choice == '1':
         print("\nFilling Missing Values...")
         columns_float = df.select_dtypes(['float64']).columns
@@ -100,7 +100,7 @@ def main():
     # Input File
     input_file = input("Enter the path to your CSV file: ")
     extension = input_file.split('.')[-1].lower()
-    
+
     df = load_data(input_file, extension)
 
     if df is None:
