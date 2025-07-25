@@ -122,12 +122,23 @@ The data, generates insights like top selling products, sales trends and revenue
 
 
 ## Data Scraping
-*Notebook / Python files* :
+*Notebook / Python files* : !
 *Related Files in assets folder* :
 
 pip install requests beautifulsoup4
 
 ### Stock Price Tracker
+I faced the same issue as following the lesson along. The targeted URL always responds 429.
+Two solutions: 
+- Add headers (was not instructed)
+- Use the library yfinance as yf (but it's not data scraping)
+
+Okay now it's working fine with proper headers. Now I'm facing cookies. You might find html files in assets folder for debugging.
+Some searches propose solution that I adopted : 
+- Accept the cookie form
+- Go to Developer tools
+- Retrieve Cookie value in Network
+
 
 #### Project : Stock Price Tracker
 Same content as in the course
