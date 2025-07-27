@@ -19,7 +19,7 @@ pip install numpy
 - Integrate matrix saving loading to a file or from a file
 
 ## Pandas
-*Notebook / Python files* : ![alt text](./2_Pandas/)
+*Notebook / Python files* : [./2_Pandas/](./2_Pandas/)
 *Related Files in assets folder* : data.csv, data1.csv, clean_project.csv, project.csv
 
 ## Install Pandas
@@ -37,8 +37,8 @@ pip install pandas
 - Include support for excel files
 
 ## Matplotlib
-*Notebook / Python files* : ![alt text](./3_Matplotlib/)
-*Related Files in assets folder* : ![alt text](./assets/matplotlib/)
+*Notebook / Python files* : [./3_Matplotlib/](./3_Matplotlib/)
+*Related Files in assets folder* : [./assets/matplotlib/](./assets/matplotlib/)
 
 ### Install matplotlib
 pip install matplotlib
@@ -76,8 +76,8 @@ Add more graph types
 Implement Tkinter for interactive graph plotting
 
 ## Data Analysis
-*Notebook / Python files* : ![alt text](./4_Data_Analysis/)
-*Related Files in assets folder* : ![alt text](./assets/data_analysis/)
+*Notebook / Python files* : [./4_Data_Analysis/](./4_Data_Analysis/)
+*Related Files in assets folder* : [./assets/data_analysis/](./assets/data_analysis/)
 
 ![alt text](./screenshots/image_results.png)
 ![alt text](./screenshots/image_analysis.png)
@@ -94,8 +94,8 @@ The data, generates insights like top selling products, sales trends and revenue
 ![alt text](./screenshots/image_project.png)
 
 ## Plotting Trends
-*Notebook / Python files* : ![alt text](./6_Data_Scraping/data_scraping.py)
-*Related Files in assets folder* : ![alt text](./assets/plotting_trends/)
+*Notebook / Python files* : [./6_Data_Scraping/data_scraping.py](./6_Data_Scraping/data_scraping.py)
+*Related Files in assets folder* : [./assets/plotting_trends/](./assets/plotting_trends/)
 
 ### Loading temperature data
 ![alt text](./screenshots/{05556DC9-3297-442D-A6CA-239CB83DB0DF}.png)
@@ -122,8 +122,8 @@ The data, generates insights like top selling products, sales trends and revenue
 
 
 ## Data Scraping
-*Notebook / Python files* : !
-*Related Files in assets folder* :
+*Notebook / Python files* : [./6_Data_Scraping/](./6_Data_Scraping/)
+*Related Files in assets folder* : [./assets/data_scraping/](./assets/data_scraping/)
 
 pip install requests beautifulsoup4
 
@@ -139,7 +139,6 @@ Some searches propose solution that I adopted :
 - Go to Developer tools
 - Retrieve Cookie value in Network
 
-
 #### Project : Stock Price Tracker
 Same content as in the course
 
@@ -153,3 +152,10 @@ Same content as in the course
 *Notebook / Python files* :
 *Related Files in assets folder* :
 
+![alt text](./screenshots/image-command-capstone.png)
+![alt text](./screenshots/image-plot-city-comparison.png)
+
+### Bonus challenge
+- Add weekly weather forecast (done)
+- Interactive maps for weather visualization with Plotly (done)
+- Build a GUI (not done)
