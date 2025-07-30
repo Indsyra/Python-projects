@@ -157,5 +157,5 @@ Same content as in the course
 
 ### Bonus challenge
 - Add weekly weather forecast (done)
-- Interactive maps for weather visualization with Plotly (done)
+- Interactive maps for weather visualization with Plotly (Will continue later)
 - Build a GUI (not done)

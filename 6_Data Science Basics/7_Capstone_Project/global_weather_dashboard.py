@@ -68,9 +68,18 @@ def plot_weather_trend(days, temperatures):
     plt.show()
     
 
-def plot_wind_spe_cities(days, wind_speed, cities):
-    fig = px.line()
-    
+# def plot_temperature_evolution_cities(cities):
+#     days = {}
+#     for city in cities:
+#         data = forecast_7_day(city)
+#         epoch = data['dt']
+#         week_day = datetime.fromtimestamp(epoch/1000).strftime("%A")
+#         if week_day not in days:
+#             days[week_day] = []
+#             if data:
+#                 days[week_day].append((city, data))
+#     fig, ax = plt.subplots(3, 2)
+#     ax[0, 0] = px.
     
 def compare_weather(cities):
     temps = []
