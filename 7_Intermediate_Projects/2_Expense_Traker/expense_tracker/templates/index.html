@@ -5,24 +5,73 @@
             Expense tracker App
         </title>
         <style>
-            body{
-                font-family: Arial, sans-serif;
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: #f0f8ff;
                 margin: 0;
                 padding: 0;
                 text-align: center;
-                background: #f0f8ff;
             }
-            table{
-                margin: 0px auto;
-            }
+
             .container {
                 padding: 20px;
             }
-            tr {
+
+            form {
+                margin-bottom: 20px;
+            }
+
+            table {
+                margin: 0 auto;
+                border-collapse: collapse;
+                width: 80%;
+                background: white;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+
+            th, td {
+                padding: 12px 15px;
                 border-bottom: 1px solid #ddd;
             }
+
             tr:hover {
-                background-color: #D6EEEE;
+                background-color: #e0f7fa;
+            }
+
+            th {
+                background-color: #007BFF;
+                color: white;
+            }
+
+            input[type="text"], input[type="number"], input[type="date"], select {
+                padding: 8px;
+                margin: 5px;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+            }
+
+            button {
+                padding: 8px 16px;
+                margin: 5px;
+                border: none;
+                border-radius: 4px;
+                background-color: #007BFF;
+                color: white;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+            .table-form-buttons {
+                margin-top: 10px;
+            }
+
+            img {
+                margin: 10px;
+                max-width: 45%;
+                border-radius: 8px;
             }
         </style>
     </header>
@@ -43,12 +92,16 @@
         {% if data %}
             <table>
                 <tr>
+                    <th>Select</th>
                 {% for col in columns %}
                     <th>{{ col }}</th>
                 {% endfor %}
                 </tr>
                 {% for row in data %}
                     <tr>
+                            <td>
+                                <input type="radio" name="selected_row" value="row_{{ loop.index0 }}">
+                            </td>
                         {% for col in columns %}
                             <td>
                                 {{ row[col] }}
@@ -57,6 +110,19 @@
                     </tr>
                 {% endfor %}
             </table>
+            <div class="table-form-buttons">
+                <button type="submit" name="action" value="delete">Delete Selected</button>
+                <button type="submit" name="action" value="update">Update Selected</button>
+            </div>
+            <form method="GET" action="/">
+                <input type="hidden" name="download" value="csv">
+                <button type="submit">Download CSV</button>
+            </form>
+
+            <form method="GET" action="/">
+                <input type="hidden" name="download" value="pdf">
+                <button type="submit">Download PDF</button>
+            </form>
         {% endif %}
         <div class="container">
             <img src="../static/media/expense_per_category.jpg" title="Expenses per category">

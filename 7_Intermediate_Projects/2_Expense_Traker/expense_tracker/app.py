@@ -21,7 +21,7 @@ def log_expense(date, category, amount, description):
 def plot_expenses_by_category(df):
     summary = df.groupby("Category")["Amount"].sum()
     plt.figure()
-    summary.plot(kind="pie", autopct="%1.1f%%", figsize=(4,4), title="Expenses by Category")
+    summary.plot(kind="pie", autopct="%1.1f%%", figsize=(5,6), title="Expenses by Category")
     plt.ylabel("")
     plt.savefig("static/media/expense_per_category.jpg")
 
@@ -31,7 +31,7 @@ def plot_monthly_trends(df):
     df["Month"] = df["Date"].dt.to_period("M")
     monthly_summary = df.groupby("Month")["Amount"].sum()
     plt.figure()
-    monthly_summary.plot(kind="bar", figsize=(4,4), title="Monthly Expense Trends")
+    monthly_summary.plot(kind="bar", figsize=(5,6), title="Monthly Expense Trends")
     plt.xlabel("Month")
     plt.ylabel("Total Expenss")
     plt.xticks(rotation=45)
@@ -57,6 +57,8 @@ def home():
             amount=amount,
             description=description
         )
+        
+    
         
     df = load_expenses()
     data = df.to_dict(orient="records")
